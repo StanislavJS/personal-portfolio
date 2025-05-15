@@ -33,7 +33,7 @@
     "projects": [
         {
             "id": "1",
-            "title": "Project One Test",
+            "title": "Project One",
             "description": "Web Design",
             "imageSrc": "/img/desk-min.webp",
             "url": "https://stanislavjs.github.io/Project-Portfolio/"
