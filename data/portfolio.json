@@ -96,7 +96,7 @@
             "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
         }
     ],
-    "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "aboutpara": "I'm a passionate junior full-stack developer eager to create efficient and user-friendly web applications. Currently improving my skills in HTML, CSS, JavaScript, React, and Node.js through real projects and continuous learning. Motivated to contribute to innovative teams and deliver quality code.",
     "resume": {
         "tagline": "👋  I'm an aspiring full-stack developer currently honing my skills in modern web technologies and building real-world projects.",
         "description": "I'm a junior full-stack developer focused on building web applications using HTML, CSS, JavaScript, React, and Node.js.",
@@ -104,7 +104,7 @@
         "education": {
             "universityName": "Go IT",
             "universityDate": "2024-2025",
-            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+            "universityPara": "Currently enrolled in an intensive full-stack development program where I am gaining hands-on experience with front-end and back-end technologies. The curriculum covers HTML, CSS, JavaScript, React, Node.js, and best practices in web development. I am building real-world projects to strengthen my coding skills and prepare for professional software development roles"
         },
         "languages": [
             "Javascript",
