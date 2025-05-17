@@ -42,8 +42,8 @@
             "id": "2",
             "title": "Project Two",
             "description": "Web Development",
-            "imageSrc": "",
-            "url": ""
+            "imageSrc": "https://pixabay.com/get/gbfd81cdf6fdc9f5ece9b328497b39e899d9bcb8a8300f321a853462c388d5821c9365cf7d10e25941643431d0ee155e218f9d1f21b88daf4ccaaff361d5cca82_1280.jpg",
+            "url": "https://stanislavjs.github.io/goit-js-hw-11/"
         },
         {
             "id": "3",
