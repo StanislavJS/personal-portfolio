@@ -42,7 +42,7 @@
             "id": "2",
             "title": "Project Two",
             "description": "Web Development",
-            "imageSrc": "https://pixabay.com/get/gbfd81cdf6fdc9f5ece9b328497b39e899d9bcb8a8300f321a853462c388d5821c9365cf7d10e25941643431d0ee155e218f9d1f21b88daf4ccaaff361d5cca82_1280.jpg",
+            "imageSrc": "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg",
             "url": "https://stanislavjs.github.io/goit-js-hw-11/"
         },
         {
@@ -77,23 +77,23 @@
     "services": [
         {
             "id": "1",
-            "title": "Art Direction",
-            "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+            "title": "Web Development",
+            "description": "Building complete web applications using HTML, CSS, JavaScript, React, and Node.js. Focused on clean, maintainable code and user-friendly interfaces."
         },
         {
             "id": "2",
-            "title": "Branding",
-            "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+            "title": "Front-End Development",
+            "description": "Developing interactive UI components with React. Experience with routing, state management, API integration, and reusable component design."
         },
         {
             "id": "3",
-            "title": "Web Design",
-            "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+            "title": "Back-End Development",
+            "description": "Creating server-side logic using Node.js and Express.js. Building RESTful APIs, managing data with MongoDB, and ensuring secure and scalable server functionality."
         },
         {
             "id": "4",
-            "title": "3D Design",
-            "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+            "title": "Deployment & Version Control",
+            "description": "Deploying applications using platforms like Netlify, Vercel, or Render. Version control and collaboration using Git and GitHub."
         }
     ],
     "aboutpara": "I'm a passionate junior full-stack developer eager to create efficient and user-friendly web applications. Currently improving my skills in HTML, CSS, JavaScript, React, and Node.js through real projects and continuous learning. Motivated to contribute to innovative teams and deliver quality code.",
