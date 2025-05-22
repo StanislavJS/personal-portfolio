@@ -11,8 +11,6 @@ import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
 
-
-
 const Resume = () => {
   const router = useRouter();
   const theme = useTheme();
@@ -24,6 +22,7 @@ const Resume = () => {
       router.push("/");
     }
   }, []);
+
   return (
     <>
       {process.env.NODE_ENV === "development" && (
@@ -36,61 +35,59 @@ const Resume = () => {
       {data.showCursor && <Cursor />}
       <div
         className={`container mx-auto mb-10 ${
-          data.showCursor && "cursor-none"
+          data.showCursor ? "cursor-none" : ""
         }`}
       >
         <Header isBlog />
         {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div
-              className={`w-full ${
-                mount && theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
-              } max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm`}
+              className={`w-full max-w-4xl p-20 mob:p-5 desktop:p-20 rounded-lg shadow-sm ${
+                theme.theme === "dark" ? "bg-slate-800" : "bg-gray-50"
+              }`}
             >
               <h1 className="text-3xl font-bold">{name}</h1>
               <h2 className="text-xl mt-5">{resume.tagline}</h2>
-              <h2 className="w-4/5 text-xl mt-5 opacity-50">
-                {resume.description}
-              </h2>
+              <h2 className="w-4/5 text-xl mt-5 opacity-50">{resume.description}</h2>
+
               <div className="mt-2">
                 <Socials />
               </div>
-              <div className="mt-5">
-                <h1 className="text-2xl font-bold">Experience</h1>
 
-                {resume.experiences.map(
-                  ({ id, dates, type, position, bullets }) => (
+              {/* Experience section: отображаем только если есть опыт */}
+              {resume.experiences && resume.experiences.length > 0 && (
+                <div className="mt-5">
+                  <h1 className="text-2xl font-bold">Experience</h1>
+                  {resume.experiences.map(({ id, dates, type, position, bullets }) => (
                     <ProjectResume
                       key={id}
                       dates={dates}
                       type={type}
                       position={position}
                       bullets={bullets}
-                    ></ProjectResume>
-                  )
-                )}
-              </div>
+                    />
+                  ))}
+                </div>
+              )}
+
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Education</h1>
                 <div className="mt-2">
                   <h2 className="text-lg">{resume.education.universityName}</h2>
-                  <h3 className="text-sm opacity-75">
-                    {resume.education.universityDate}
-                  </h3>
-                  <p className="text-sm mt-2 opacity-50">
-                    {resume.education.universityPara}
-                  </p>
+                  <h3 className="text-sm opacity-75">{resume.education.universityDate}</h3>
+                  <p className="text-sm mt-2 opacity-50">{resume.education.universityPara}</p>
                 </div>
               </div>
+
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
                   {resume.languages && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Languages</h2>
-                      <ul className="list-disc">
+                      <ul className="list-disc ml-5">
                         {resume.languages.map((language, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="py-2">
                             {language}
                           </li>
                         ))}
@@ -101,9 +98,9 @@ const Resume = () => {
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Frameworks</h2>
-                      <ul className="list-disc">
+                      <ul className="list-disc ml-5">
                         {resume.frameworks.map((framework, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="py-2">
                             {framework}
                           </li>
                         ))}
@@ -114,9 +111,9 @@ const Resume = () => {
                   {resume.others && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Others</h2>
-                      <ul className="list-disc">
+                      <ul className="list-disc ml-5">
                         {resume.others.map((other, index) => (
-                          <li key={index} className="ml-5 py-2">
+                          <li key={index} className="py-2">
                             {other}
                           </li>
                         ))}
@@ -124,6 +121,19 @@ const Resume = () => {
                     </div>
                   )}
                 </div>
+
+                {resume.spokenLanguages && resume.spokenLanguages.length > 0 && (
+                  <div className="mt-5">
+                    <h1 className="text-2xl font-bold">Spoken Languages</h1>
+                    <ul className="list-disc list-inside mt-2">
+                      {resume.spokenLanguages.map(({ language, level }, index) => (
+                        <li key={index}>
+                          <span className="font-medium">{language}</span>: {level}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
           </div>

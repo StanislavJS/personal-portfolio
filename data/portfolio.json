@@ -43,35 +43,35 @@
             "title": "Project Two",
             "description": "Web Development",
             "imageSrc": "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg",
-            "url": "https://stanislavjs.github.io/goit-js-hw-11/"
+            "url": "https://stanislavjs.github.io/goit-js-hw-12/"
         },
         {
             "id": "3",
             "title": "Project Three",
             "description": "Design",
             "imageSrc": "https://cdn.pixabay.com/photo/2017/09/26/15/13/computer-2788918_1280.jpg",
-            "url": ""
+            "url": "Coming soon"
         },
         {
             "id": "4",
             "title": "Project Four",
             "description": "Marketing",
             "imageSrc": "https://cdn.pixabay.com/photo/2017/10/30/08/12/scan-code-2901698_1280.jpg",
-            "url": ""
+            "url": "Coming soon"
         },
         {
             "id": "5",
             "title": "Project Five",
             "description": "Development",
             "imageSrc": "https://cdn.pixabay.com/photo/2014/12/08/21/25/innovation-561388_1280.jpg",
-            "url": ""
+            "url": "Coming soon"
         },
         {
             "id": "6",
             "title": "Project Six",
             "description": "Design & Development",
             "imageSrc": "https://cdn.pixabay.com/photo/2018/12/03/08/11/hand-prosthesis-3852895_1280.jpg",
-            "url": ""
+            "url": "Coming soon"
         }
     ],
     "services": [
@@ -117,7 +117,31 @@
             "NodeJs"
         ],
         "others": [
-            "Figma"
+            "Figma",
+            "GitHub",
+            "Vercel"
+        ],
+        "spokenLanguages": [
+            {
+                "language": "Russian",
+                "level": "Native"
+            },
+            {
+                "language": "Ukrainian",
+                "level": "Native"
+            },
+            {
+                "language": "Polish",
+                "level": "Intermediate (B2)"
+            },
+            {
+                "language": "English",
+                "level": "Beginner (A1)"
+            },
+            {
+                "language": "Lithuanian",
+                "level": "Beginner (A1)"
+            }
         ]
     }
 }
