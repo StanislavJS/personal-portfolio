@@ -47,24 +47,24 @@
         },
         {
             "id": "3",
-            "title": "Project Three",
-            "description": "Design",
-            "imageSrc": "https://cdn.pixabay.com/photo/2017/09/26/15/13/computer-2788918_1280.jpg",
-            "url": "Coming soon"
+            "title": "Contacts REST API",
+            "description": "RESTful API for managing a contact list with secure JWT authentication, data validation, Swagger documentation, and full CRUD operations.",
+            "imageSrc": "https://res.cloudinary.com/db8freoyu/image/upload/v1765293517/swagger_ynrkqz.png",
+            "url": "https://nodejs-hw-mongodb-0l3e.onrender.com/api-docs/#/"
         },
         {
             "id": "4",
-            "title": "Project Four",
-            "description": "Marketing",
-            "imageSrc": "https://cdn.pixabay.com/photo/2017/10/30/08/12/scan-code-2901698_1280.jpg",
-            "url": "Coming soon"
+            "title": "Movie Search App",
+            "description": "SPA for movie search using TMDB API with pagination and query caching.",
+            "imageSrc": "https://res.cloudinary.com/db8freoyu/image/upload/v1765294105/TMDB_tmaizl.png",
+            "url": "https://04-react-query-one-black.vercel.app/"
         },
         {
             "id": "5",
-            "title": "Project Five",
-            "description": "Development",
-            "imageSrc": "https://cdn.pixabay.com/photo/2014/12/08/21/25/innovation-561388_1280.jpg",
-            "url": "Coming soon"
+            "title": "ArtistsHub",
+            "description": " Collaborative platform connecting music fans with artists.",
+            "imageSrc": "https://res.cloudinary.com/db8freoyu/image/upload/v1765294324/ArtistsHub_jbcu3c.png",
+            "url": "https://iryna-kleimonova.github.io/js-project-team-7/"
         },
         {
             "id": "6",
@@ -96,30 +96,29 @@
             "description": "Deploying applications using platforms like Netlify, Vercel, or Render. Version control and collaboration using Git and GitHub."
         }
     ],
-    "aboutpara": "I'm a passionate junior full-stack developer eager to create efficient and user-friendly web applications. Currently improving my skills in HTML, CSS, JavaScript, React, and Node.js through real projects and continuous learning. Motivated to contribute to innovative teams and deliver quality code.",
+    "aboutpara": "I am a Fullstack Developer skilled in creating responsive single-page applications (SPAs), REST APIs, and authentication systems utilizing React, Next.js, Node.js, and MongoDB. My solid analytical and communication abilities were developed through my experience in teaching computer science. I am passionate about writing clean code, fostering teamwork, and building products that make a difference.",
     "resume": {
-        "tagline": "👋  I'm an aspiring full-stack developer currently honing my skills in modern web technologies and building real-world projects.",
-        "description": "I'm a junior full-stack developer focused on building web applications using HTML, CSS, JavaScript, React, and Node.js.",
+        "tagline": "👋  I am a Fullstack Developer skilled in creating responsive single-page applications (SPAs), REST APIs, and authentication systems utilizing React, Next.js, Node.js, and MongoDB.",
+        "description": "My solid analytical and communication abilities were developed through my experience in teaching computer science.",
         "experiences": [],
         "education": {
             "universityName": "Go IT",
             "universityDate": "2024-2025",
-            "universityPara": "Currently enrolled in an intensive full-stack development program where I am gaining hands-on experience with front-end and back-end technologies. The curriculum covers HTML, CSS, JavaScript, React, Node.js, and best practices in web development. I am building real-world projects to strengthen my coding skills and prepare for professional software development roles"
+            "universityPara": "Completed a full-stack development program and earned an official certification. The training provided practical experience in building both client-side and server-side applications using modern technologies such as HTML, CSS, JavaScript, React, and Node.js. I can confidently develop full-stack solutions, implement clean architecture, work with APIs, and deliver production-ready features across the entire development lifecycle."
         },
-        "languages": [
-            "Javascript",
-            "HTML5",
-            "CSS"
+        "TECHSKILLS": [
+            "Frontend: HTML5, CSS3, SCSS, JavaScript (ES6+), React, Redux Toolkit, React Query, Axios, Figma",
+            "Backend: Node.js, Express, MongoDB, Swagger, JWT, Bcrypt"
         ],
-        "frameworks": [
-            "React",
-            "Typescript",
-            "NodeJs"
+        "Tools": [
+            "Git, GitHub, GitLab,",
+            "Postman, Vercel, Render",
+            "Netlify, Heroku"
         ],
         "others": [
-            "Figma",
-            "GitHub",
-            "Vercel"
+            "Scrum / Agile",
+            "Bash, Code Review",
+            "API, Documentation"
         ],
         "spokenLanguages": [
             {
@@ -132,15 +131,15 @@
             },
             {
                 "language": "Polish",
-                "level": "Intermediate (B2)"
+                "level": "Upper-Intermediate"
             },
             {
                 "language": "English",
-                "level": "Beginner (A1)"
+                "level": " Pre-Intermediate"
             },
             {
                 "language": "Lithuanian",
-                "level": "Beginner (A1)"
+                "level": "Beginner"
             }
         ]
     }

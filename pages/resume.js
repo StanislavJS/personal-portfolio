@@ -82,26 +82,26 @@ const Resume = () => {
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Skills</h1>
                 <div className="flex mob:flex-col desktop:flex-row justify-between">
-                  {resume.languages && (
+                  {resume.TECHSKILLS && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Languages</h2>
+                      <h2 className="text-lg">TECHSKILLS</h2>
                       <ul className="list-disc ml-5">
-                        {resume.languages.map((language, index) => (
+                        {resume.TECHSKILLS.map((techskill, index) => (
                           <li key={index} className="py-2">
-                            {language}
+                            {techskill}
                           </li>
                         ))}
                       </ul>
                     </div>
                   )}
 
-                  {resume.frameworks && (
+                  {resume.Tools && (
                     <div className="mt-2 mob:mt-5">
-                      <h2 className="text-lg">Frameworks</h2>
+                      <h2 className="text-lg">Tools</h2>
                       <ul className="list-disc ml-5">
-                        {resume.frameworks.map((framework, index) => (
+                        {resume.Tools.map((tool, index) => (
                           <li key={index} className="py-2">
-                            {framework}
+                            {tool}
                           </li>
                         ))}
                       </ul>

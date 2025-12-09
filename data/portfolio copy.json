@@ -134,13 +134,13 @@
       "HTML5",
       "CSS"
     ],
-    "frameworks": [
-      "React",
-      "Typescript",
-      "NodeJs"
+    "TECHSKILLS": [
+      "Frontend: HTML5, CSS3, SCSS, JavaScript (ES6+), React, Redux Toolkit, React Query, Axios, Figma",
+      "Backend: Node.js, Express, MongoDB, Swagger, JWT, Bcrypt",
+      "Tools & DevOps: Git, GitHub, GitLab, Postman, Vercel, Render, Netlify, Heroku"
     ],
     "others": [
-      "Figma"
+      "Scrum / Agile, Bash, Code Review, API, Documentation"
     ]
   }
 }

@@ -786,21 +786,21 @@ const Edit = () => {
               </div>
               <hr className="my-10"></hr>
               <div className="flex">
-                <label className="w-1/5 text-lg opacity-50">Frameworks</label>
+                <label className="w-1/5 text-lg opacity-50">Tools</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.frameworks.map((framework, index) => (
+                  {data.resume.Tools.map((tool, index) => (
                     <div key={index} className="flex">
                       <input
-                        value={framework}
+                        value={tool}
                         onChange={(e) => {
                           setData({
                             ...data,
                             resume: {
                               ...data.resume,
-                              frameworks: [
-                                ...data.resume.frameworks.slice(0, index),
+                              Tools: [
+                                ...data.resume.Tools.slice(0, index),
                                 e.target.value,
-                                ...data.resume.frameworks.slice(index + 1),
+                                ...data.resume.Tools.slice(index + 1),
                               ],
                             },
                           });
@@ -814,7 +814,7 @@ const Edit = () => {
                             ...data,
                             resume: {
                               ...data.resume,
-                              frameworks: data.resume.frameworks.filter(
+                              Tools: data.resume.Tools.filter(
                                 (value, i) => index !== i
                               ),
                             },
@@ -831,7 +831,7 @@ const Edit = () => {
                         ...data,
                         resume: {
                           ...data.resume,
-                          frameworks: [...data.resume.frameworks, "Added"],
+                          Tools: [...data.resume.Tools, "Added"],
                         },
                       })
                     }
