@@ -33,17 +33,17 @@
     "projects": [
         {
             "id": "1",
-            "title": "Project One",
-            "description": "Web Design",
-            "imageSrc": "https://cdn.pixabay.com/photo/2022/01/18/16/33/vegetables-6947473_1280.jpg",
-            "url": "https://stanislavjs.github.io/Project-Portfolio/"
+            "title": "Podorozhnyky Travel Platform",
+            "description": " Full-stack travel platform where users can publish stories, manage profiles with avatars and bios, save favorite posts, browse themed collections, and switch light/dark mode. Includes secure authentication with refresh tokens, SSR-optimized pages, and responsive UI.",
+            "imageSrc": "https://res.cloudinary.com/db8freoyu/image/upload/v1765279257/bg_xzvlqi.jpg",
+            "url": "https://travel-fs116-teamproject-frontend-rouge.vercel.app/"
         },
         {
             "id": "2",
-            "title": "Project Two",
-            "description": "Web Development",
-            "imageSrc": "https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_1280.jpg",
-            "url": "https://stanislavjs.github.io/goit-js-hw-12/"
+            "title": "RentalCar — Dark Premium UI",
+            "description": "Frontend platform for premium car rental services featuring a Dark Premium interface inspired by luxury automotive brands. Includes a dynamic catalog with filters (brand, price, mileage), responsive grid, detailed car pages with full specs, favorites system, custom UI components, and optimized Hero Banner animations. Fully responsive for desktop, tablet, and mobile, with production-ready architecture and API integration layer.",
+            "imageSrc": "https://res.cloudinary.com/db8freoyu/image/upload/v1765279785/aaron-huber-7Nsarl91394-unsplash_zakvbo.jpg",
+            "url": "https://rentalcar-frontend-nine.vercel.app/"
         },
         {
             "id": "3",
